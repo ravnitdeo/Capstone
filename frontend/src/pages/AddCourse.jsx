@@ -152,14 +152,19 @@ function AddCourse() {
                       >
                         Campus
                       </label>
-                      <select name='campus' id='campus' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Campus --</option>
-                        <option value="Civic">Civic</option>
-                        <option value="Cloverdale">Cloverdale</option>
-                        <option value="Langley">Langley</option>
-                        <option value="Online">Online</option>
-                        <option value="Richmond">Richmond</option>
-                        <option value="Surrey">Surrey</option>
+                      <select
+                        name='campus'
+                        id='campus'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Campus --</option>
+                        <option value='Civic'>Civic</option>
+                        <option value='Cloverdale'>Cloverdale</option>
+                        <option value='Langley'>Langley</option>
+                        <option value='Online'>Online</option>
+                        <option value='Richmond'>Richmond</option>
+                        <option value='Surrey'>Surrey</option>
                       </select>
                     </div>
                     <div className='col-span-4 sm:col-span-2'>
@@ -170,12 +175,17 @@ function AddCourse() {
                         Status
                       </label>
 
-                      <select name='status' id='status' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Status --</option>
-                        <option value="Active">Active</option>
-                        <option value="Cancelled">Cancelled</option>
-                        <option value="Suspended">Suspended</option>
-                        <option value="Delete">Delete</option>
+                      <select
+                        name='status'
+                        id='status'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Status --</option>
+                        <option value='Active'>Active</option>
+                        <option value='Cancelled'>Cancelled</option>
+                        <option value='Suspended'>Suspended</option>
+                        <option value='Delete'>Delete</option>
                       </select>
                     </div>
                   </div>
@@ -221,13 +231,28 @@ function AddCourse() {
                       >
                         Intsructional Method
                       </label>
-                      <select name='instructional_method' id='instructional_method' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Instructional Method --</option>
-                        <option value="Blended Asynchronous Delivery">Blended Asynchronous Delivery</option>
-                        <option value="Blended Synchronous Delivery">Blended Synchronous Delivery</option>
-                        <option value="In Person">In Person</option>
-                        <option value="Online Asynchronous Delivery">Online Asynchronous Delivery</option>
-                        <option value="Online Synchronous Delivery">Online Synchronous Delivery</option>
+                      <select
+                        name='instructional_method'
+                        id='instructional_method'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>
+                          -- Select Instructional Method --
+                        </option>
+                        <option value='Blended Asynchronous Delivery'>
+                          Blended Asynchronous Delivery
+                        </option>
+                        <option value='Blended Synchronous Delivery'>
+                          Blended Synchronous Delivery
+                        </option>
+                        <option value='In Person'>In Person</option>
+                        <option value='Online Asynchronous Delivery'>
+                          Online Asynchronous Delivery
+                        </option>
+                        <option value='Online Synchronous Delivery'>
+                          Online Synchronous Delivery
+                        </option>
                       </select>
                     </div>
                     <div className='col-span-6 sm:col-span-3'>
@@ -289,16 +314,21 @@ function AddCourse() {
                       >
                         Meeting Type
                       </label>
-                      <select name='meeting_type' id='meeting_type' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Meeting Type --</option>
-                        <option value="Class">Class</option>
-                        <option value="Evaluation">Evaluation</option>
-                        <option value="Lab">Lab</option>
-                        <option value="Midterm">Midterm</option>
-                        <option value="Orientation">Orientation</option>
-                        <option value="Seminar">Seminar</option>
-                        <option value="Theory">Theory</option>
-                        <option value="Work Exp">Work Experience</option>
+                      <select
+                        name='meeting_type'
+                        id='meeting_type'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Meeting Type --</option>
+                        <option value='Class'>Class</option>
+                        <option value='Evaluation'>Evaluation</option>
+                        <option value='Lab'>Lab</option>
+                        <option value='Midterm'>Midterm</option>
+                        <option value='Orientation'>Orientation</option>
+                        <option value='Seminar'>Seminar</option>
+                        <option value='Theory'>Theory</option>
+                        <option value='Work Exp'>Work Experience</option>
                       </select>
                     </div>
                     <div className='col-span-6 sm:col-span-3'>
@@ -308,17 +338,21 @@ function AddCourse() {
                       >
                         Session
                       </label>
-                      <select name='session' id='session' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Session --</option>
-                        <option value="Full">Full</option>
-                        <option value="Off">Off</option>
-                        <option value="One">One</option>
-                        <option value="Online">Online</option>
-                        <option value="Other">Other</option>
-                        <option value="Two">Two</option>
+                      <select
+                        name='session'
+                        id='session'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Session --</option>
+                        <option value='Full'>Full</option>
+                        <option value='Off'>Off</option>
+                        <option value='One'>One</option>
+                        <option value='Online'>Online</option>
+                        <option value='Other'>Other</option>
+                        <option value='Two'>Two</option>
                       </select>
                     </div>
-
                   </div>
                   <div className='grid grid-cols-6 gap-6'>
                     <div className='col-span-6 sm:col-span-3'>
@@ -351,32 +385,129 @@ function AddCourse() {
                         className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
                       />
                     </div>
-
                   </div>
                   <div className='grid grid-cols-6 gap-6'>
-                    <div className='col-span-6 sm:col-span-6'>
-                      <label
-                        htmlFor='last-name'
-                        className='block text-sm font-medium text-gray-700'
-                      >
+                    <fieldset>
+                      <legend class='text-base font-medium text-gray-900'>
                         Days
-                      </label>
-                      <input type="checkbox" id="sunday" name="sunday" value="U" />
-                      <label for="sunday"> Sunday</label>
-                      <input type="checkbox" id="monday" name="monday" value="M" />
-                      <label for="monday"> Monday</label>
-                      <input type="checkbox" id="tuesday" name="tuesday" value="T" />
-                      <label for="tuesday"> Tuesday</label>
-                      <input type="checkbox" id="wednesday" name="wednesday" value="W" />
-                      <label for="wednesday"> Wednesday</label>
-                      <input type="checkbox" id="thursday" name="thursday" value="R" />
-                      <label for="thursday"> Thursday</label>
-                      <input type="checkbox" id="friday" name="friday" value="F" />
-                      <label for="friday"> Friday</label>
-                      <input type="checkbox" id="saturday" name="saturday" value="S" />
-                      <label for="saturday"> Saturday</label>
-                    </div>
-
+                      </legend>
+                      <div class='mt-4 space-y-4'>
+                        <div class='flex items-start'>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Sunday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Monday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Tuesday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Wednesday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Thursday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Friday
+                            </label>
+                          </div>
+                          <div class='flex items-center h-5'>
+                            <input
+                              id='comments'
+                              name='comments'
+                              type='checkbox'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded'
+                            />
+                          </div>
+                          <div class='ml-3 text-sm mr-2'>
+                            <label
+                              for='comments'
+                              class='font-medium text-gray-700'
+                            >
+                              Saturday
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
                   </div>
                   <div className='grid grid-cols-6 gap-6'>
                     <div className='col-span-6 sm:col-span-3'>
@@ -409,8 +540,6 @@ function AddCourse() {
                         className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
                       />
                     </div>
-
-
                   </div>
                   <div className='grid grid-cols-6 gap-6'>
                     <div className='col-span-6 sm:col-span-3'>
@@ -420,18 +549,29 @@ function AddCourse() {
                       >
                         Room Type
                       </label>
-                      <select name='meeting_room_type' id='meeting_room_type' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Room Type --</option>
-                        <option value="Auditorium">Auditorium</option>
-                        <option value="Classroom">Classroom</option>
-                        <option value="Classroom - RESTRICTED">Classroom - RESTRICTED</option>
-                        <option value="Conference Centre">Conference Centre</option>
-                        <option value="eClassroom">eClassroom</option>
-                        <option value="eClassroom - RESTRICTED">eClassroom - RESTRICTED</option>
-                        <option value="Lab - Computer">Lab - Computer</option>
-                        <option value="No Room Needed">No Room Needed</option>
-                        <option value="Off campus">Off campus</option>
-                        <option value="Online">Online</option>
+                      <select
+                        name='meeting_room_type'
+                        id='meeting_room_type'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Room Type --</option>
+                        <option value='Auditorium'>Auditorium</option>
+                        <option value='Classroom'>Classroom</option>
+                        <option value='Classroom - RESTRICTED'>
+                          Classroom - RESTRICTED
+                        </option>
+                        <option value='Conference Centre'>
+                          Conference Centre
+                        </option>
+                        <option value='eClassroom'>eClassroom</option>
+                        <option value='eClassroom - RESTRICTED'>
+                          eClassroom - RESTRICTED
+                        </option>
+                        <option value='Lab - Computer'>Lab - Computer</option>
+                        <option value='No Room Needed'>No Room Needed</option>
+                        <option value='Off campus'>Off campus</option>
+                        <option value='Online'>Online</option>
                       </select>
                     </div>
                     <div className='col-span-6 sm:col-span-3'>
@@ -487,18 +627,53 @@ function AddCourse() {
                 <div className='px-4 py-5 bg-white space-y-6 sm:p-6'>
                   <div className='grid grid-cols-6 gap-6'>
                     <div className='col-span-6 sm:col-span-3'>
-                      <label
-                        htmlFor='first-name'
-                        className='block text-sm font-medium text-gray-700'
-                      >
-                        Exam
-                      </label>
-                      <input type="radio" id="yes" name="exam" value="Y" />
-                      <label for="yes">Yes</label>
-                      <input type="radio" id="no" name="exam" value="N" />
-                      <label for="no">No</label>
-                      <input type="radio" id="undecided" name="exam" value="Undecided" />
-                      <label for="undecided">Undecided</label>
+                      <fieldset>
+                        <div>
+                          <legend class='text-base font-medium text-gray-900'>
+                            Exam
+                          </legend>
+                        </div>
+                        <div class='mt-4 space-y-4'>
+                          <div class='flex items-center'>
+                            <input
+                              id='push-everything'
+                              name='push-notifications'
+                              type='radio'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300'
+                            />
+                            <label
+                              for='push-everything'
+                              class='mx-3  block text-sm font-medium text-gray-700'
+                            >
+                              Yes
+                            </label>
+                            <input
+                              id='push-email'
+                              name='push-notifications'
+                              type='radio'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300'
+                            />
+                            <label
+                              for='push-email'
+                              class='mx-3 block text-sm font-medium text-gray-700'
+                            >
+                              No
+                            </label>
+                            <input
+                              id='push-nothing'
+                              name='push-notifications'
+                              type='radio'
+                              class='focus:ring-primary h-4 w-4 text-primary border-gray-300'
+                            />
+                            <label
+                              for='push-nothing'
+                              class='mx-3 block text-sm font-medium text-gray-700'
+                            >
+                              Undecided
+                            </label>
+                          </div>
+                        </div>
+                      </fieldset>
                     </div>
                     <div className='col-span-6 sm:col-span-3'>
                       <label
@@ -524,18 +699,29 @@ function AddCourse() {
                       >
                         Room Type
                       </label>
-                      <select name='exam_room_type' id='exam_room_type' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'>
-                        <option value=" ">-- Select Room Type --</option>
-                        <option value="Auditorium">Auditorium</option>
-                        <option value="Classroom">Classroom</option>
-                        <option value="Classroom - RESTRICTED">Classroom - RESTRICTED</option>
-                        <option value="Conference Centre">Conference Centre</option>
-                        <option value="eClassroom">eClassroom</option>
-                        <option value="eClassroom - RESTRICTED">eClassroom - RESTRICTED</option>
-                        <option value="Lab - Computer">Lab - Computer</option>
-                        <option value="No Room Needed">No Room Needed</option>
-                        <option value="Off campus">Off campus</option>
-                        <option value="Online">Online</option>
+                      <select
+                        name='exam_room_type'
+                        id='exam_room_type'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      >
+                        <option value=' '>-- Select Room Type --</option>
+                        <option value='Auditorium'>Auditorium</option>
+                        <option value='Classroom'>Classroom</option>
+                        <option value='Classroom - RESTRICTED'>
+                          Classroom - RESTRICTED
+                        </option>
+                        <option value='Conference Centre'>
+                          Conference Centre
+                        </option>
+                        <option value='eClassroom'>eClassroom</option>
+                        <option value='eClassroom - RESTRICTED'>
+                          eClassroom - RESTRICTED
+                        </option>
+                        <option value='Lab - Computer'>Lab - Computer</option>
+                        <option value='No Room Needed'>No Room Needed</option>
+                        <option value='Off campus'>Off campus</option>
+                        <option value='Online'>Online</option>
                       </select>
                     </div>
                     <div className='col-span-6 sm:col-span-3'>
@@ -643,7 +829,13 @@ function AddCourse() {
                       >
                         Date reserves to be removed
                       </label>
-                      <input type='date' name='remove_reserves_date' id='remove_reserves_date' autoComplete='on' className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md' />
+                      <input
+                        type='date'
+                        name='remove_reserves_date'
+                        id='remove_reserves_date'
+                        autoComplete='on'
+                        className='mt-1 focus:ring-primary focus:border-primaryblock w-full shadow-sm sm:text-sm border-gray-300 rounded-md'
+                      />
                     </div>
                   </div>
                 </div>
